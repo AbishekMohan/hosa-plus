@@ -1,0 +1,88 @@
+export const flashcards = []
+
+export const quizQuestions = [
+  {
+    id: 'path-q1',
+    question: 'Heart failure is primarily characterized by:',
+    options: ['Elevated red blood cell count', "The heart's inability to pump sufficient blood to meet body demands", 'Abnormal heart rhythm', 'Narrowing of coronary arteries only'],
+    answerIndex: 1,
+    explanation: "Heart failure occurs when the heart cannot maintain adequate cardiac output for the body's metabolic needs.",
+  },
+  {
+    id: 'path-q2',
+    question: 'Type 2 diabetes mellitus is primarily caused by:',
+    options: ['Autoimmune destruction of beta cells', 'Insulin resistance and relative insulin deficiency', 'Complete absence of insulin production', 'Viral destruction of the pancreas'],
+    answerIndex: 1,
+    explanation: 'Type 2 diabetes is characterized by peripheral insulin resistance combined with insufficient insulin secretion from beta cells.',
+  },
+  {
+    id: 'path-q3',
+    question: 'The four cardinal signs of inflammation are:',
+    options: ['Fever, chills, sweating, pain', 'Redness, heat, swelling, pain', 'Pallor, edema, fever, rash', 'Cyanosis, pain, heat, bleeding'],
+    answerIndex: 1,
+    explanation: 'The classical signs of acute inflammation (rubor, calor, tumor, dolor) are redness, heat, swelling, and pain.',
+  },
+  {
+    id: 'path-q4',
+    question: 'Which type of shock results from a severe allergic reaction?',
+    options: ['Cardiogenic shock', 'Hypovolemic shock', 'Anaphylactic shock', 'Septic shock'],
+    answerIndex: 2,
+    explanation: 'Anaphylactic shock is a life-threatening systemic allergic reaction causing massive vasodilation and circulatory collapse.',
+  },
+  {
+    id: 'path-q5',
+    question: 'Ischemia differs from infarction in that:',
+    options: ['Ischemia is reversible while infarction is permanent tissue death', 'Infarction is reversible while ischemia is permanent', 'Both are irreversible conditions', 'Both conditions are fully reversible'],
+    answerIndex: 0,
+    explanation: 'Ischemia is reduced blood flow that may be reversible; infarction is irreversible cell death caused by prolonged ischemia.',
+  },
+  {
+    id: 'path-q6',
+    question: 'COPD is primarily characterized by:',
+    options: ['Fully reversible airway obstruction', 'Progressive, irreversible airflow obstruction', 'Acute-only bronchoconstriction episodes', 'Fluid accumulation in the alveoli'],
+    answerIndex: 1,
+    explanation: 'COPD involves permanent progressive airflow obstruction, typically from smoking-induced emphysema and chronic bronchitis.',
+  },
+  {
+    id: 'path-q7',
+    question: 'Atherosclerosis is the buildup of:',
+    options: ['Blood clots within veins', 'Calcium deposits in joints', 'Plaque within arterial walls', 'Excess fluid around the heart'],
+    answerIndex: 2,
+    explanation: 'Atherosclerosis is the accumulation of fatty plaque inside arterial walls, progressively narrowing the vessel lumen.',
+  },
+  {
+    id: 'path-q8',
+    question: 'A pulmonary embolism most commonly originates from:',
+    options: ['Arterial clots forming in the lungs', 'Deep vein thrombosis in the lower extremities', 'Right ventricular thrombus', 'Left atrial thrombus'],
+    answerIndex: 1,
+    explanation: 'Most pulmonary emboli arise from DVT in the legs; clots break off and travel through the right heart into the pulmonary arteries.',
+  },
+  {
+    id: 'path-q9',
+    question: 'Diabetic ketoacidosis (DKA) is characterized by:',
+    options: ['Low blood pH and low glucose', 'Low blood glucose and metabolic alkalosis', 'Hyperglycemia, ketosis, and metabolic acidosis', 'Normal glucose with isolated ketonemia'],
+    answerIndex: 2,
+    explanation: 'DKA is a complication of diabetes (usually Type 1) marked by hyperglycemia, excess ketone production, and metabolic acidosis.',
+  },
+  {
+    id: 'path-q10',
+    question: 'T cells and B cells are primarily responsible for:',
+    options: ['Innate immune response only', 'Adaptive (specific) immune response', 'Phagocytosis of bacteria', 'Platelet aggregation'],
+    answerIndex: 1,
+    explanation: 'T cells (cell-mediated) and B cells (antibody-mediated) are the key effectors of the adaptive immune system.',
+  },
+  {
+    id: 'path-q11',
+    question: 'Which phase of wound healing involves collagen synthesis and tissue rebuilding?',
+    options: ['Hemostasis phase', 'Inflammatory phase', 'Proliferative (repair) phase', 'Maturation phase'],
+    answerIndex: 2,
+    explanation: 'During the proliferative phase, fibroblasts synthesize collagen and granulation tissue forms, closing and rebuilding the wound.',
+  },
+  {
+    id: 'path-q12',
+    question: 'Hypertension is primarily caused by increased:',
+    options: ['Cardiac output alone', 'Systemic vascular resistance', 'Blood volume alone', 'Heart rate alone'],
+    answerIndex: 1,
+    explanation: 'Hypertension results from increased peripheral vascular resistance placing excess pressure on arterial walls.',
+  },
+]

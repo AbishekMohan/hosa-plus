@@ -1,0 +1,88 @@
+export const flashcards = []
+
+export const quizQuestions = [
+  {
+    id: 'pharm-q1',
+    question: 'Which drug class works by inhibiting the angiotensin-converting enzyme (ACE)?',
+    options: ['Beta Blockers', 'ACE Inhibitors', 'Calcium Channel Blockers', 'Loop Diuretics'],
+    answerIndex: 1,
+    explanation: 'ACE inhibitors block conversion of angiotensin I to angiotensin II, reducing vasoconstriction and lowering blood pressure.',
+  },
+  {
+    id: 'pharm-q2',
+    question: "A drug's \"half-life\" refers to:",
+    options: ['The time to reach maximum effect', 'The time for 50% of the drug to be eliminated', 'The duration of the therapeutic window', 'The peak plasma concentration time'],
+    answerIndex: 1,
+    explanation: 'Half-life is the time required for the concentration of a drug in the body to decrease by half.',
+  },
+  {
+    id: 'pharm-q3',
+    question: 'Which DEA schedule indicates the highest abuse potential with NO accepted medical use in the US?',
+    options: ['Schedule I', 'Schedule II', 'Schedule III', 'Schedule IV'],
+    answerIndex: 0,
+    explanation: 'Schedule I drugs (e.g., heroin, LSD) have the highest abuse potential and no currently accepted medical use.',
+  },
+  {
+    id: 'pharm-q4',
+    question: 'Bioavailability is defined as:',
+    options: ['The speed of drug absorption', 'The fraction of administered drug reaching systemic circulation unchanged', 'The drug\'s protein binding capacity', 'The volume of distribution of a drug'],
+    answerIndex: 1,
+    explanation: 'Bioavailability is the proportion of a drug dose that enters systemic circulation and is available to exert its effect.',
+  },
+  {
+    id: 'pharm-q5',
+    question: 'Which of the following is an opioid analgesic?',
+    options: ['Ibuprofen', 'Acetaminophen', 'Morphine', 'Aspirin'],
+    answerIndex: 2,
+    explanation: 'Morphine is a potent opioid analgesic that binds to opioid receptors in the CNS to reduce pain perception.',
+  },
+  {
+    id: 'pharm-q6',
+    question: 'Beta-blockers are most commonly prescribed for:',
+    options: ['Hypertension and angina', 'Bacterial infections', 'Allergic reactions', 'Vitamin deficiencies'],
+    answerIndex: 0,
+    explanation: 'Beta-blockers reduce heart rate and blood pressure by blocking beta-adrenergic receptors, making them effective for hypertension and angina.',
+  },
+  {
+    id: 'pharm-q7',
+    question: 'What does the abbreviation "PRN" mean on a medication order?',
+    options: ['Per routine night', 'As needed', 'Every two hours', 'Before meals'],
+    answerIndex: 1,
+    explanation: 'PRN (Latin: pro re nata) means "as needed" — the medication is given only when the patient requires it.',
+  },
+  {
+    id: 'pharm-q8',
+    question: 'The therapeutic index measures:',
+    options: ['How fast a drug takes effect', 'The ratio of toxic dose to effective dose', 'How long a drug lasts in the body', 'Drug protein binding rate'],
+    answerIndex: 1,
+    explanation: 'A higher therapeutic index means a wider safety margin between effective and toxic doses.',
+  },
+  {
+    id: 'pharm-q9',
+    question: 'Which route of drug administration has 100% bioavailability?',
+    options: ['Oral (PO)', 'Subcutaneous (SQ)', 'Intravenous (IV)', 'Transdermal'],
+    answerIndex: 2,
+    explanation: 'IV administration delivers the drug directly into the bloodstream, completely bypassing first-pass metabolism.',
+  },
+  {
+    id: 'pharm-q10',
+    question: 'The primary concern with polypharmacy in elderly patients is:',
+    options: ['Drug interactions and increased adverse effects', 'Faster drug metabolism', 'Improved therapeutic outcomes', 'Reduced treatment costs'],
+    answerIndex: 0,
+    explanation: 'Polypharmacy significantly increases risk of drug-drug interactions, adverse effects, and medication errors in elderly patients.',
+  },
+  {
+    id: 'pharm-q11',
+    question: 'Vancomycin is an antibiotic that primarily targets:',
+    options: ['DNA replication', 'Protein synthesis', 'Bacterial cell wall synthesis', 'Cell membrane permeability'],
+    answerIndex: 2,
+    explanation: 'Vancomycin inhibits bacterial cell wall synthesis and is effective against gram-positive organisms including MRSA.',
+  },
+  {
+    id: 'pharm-q12',
+    question: 'An unexpected, unusual drug reaction that occurs in certain individuals is called:',
+    options: ['Drug tolerance', 'Side effect', 'Idiosyncratic reaction', 'Drug dependence'],
+    answerIndex: 2,
+    explanation: 'An idiosyncratic reaction is an abnormal, unpredictable response to a drug that differs from the expected pharmacological effect.',
+  },
+]
